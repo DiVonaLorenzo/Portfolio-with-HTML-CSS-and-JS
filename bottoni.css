@@ -1,0 +1,67 @@
+body {
+  background-color: lightyellow;
+}
+h1{
+  text-align: center;
+}
+
+#primo{
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  width:600px;
+}
+#secondo{
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 600px;
+  padding-top: 10px;
+}
+#terzo{
+  border: 2px solid green;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#quarto{
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#firstbutton,#secondbutton,#thirdbutton,#fourthbutton{
+  margin-bottom: 5px;
+}
+
+.colorelightblue
+{background-color: lightblue;
+}
+
+.coloregrey
+{background-color: grey;
+}
+.aggiorna{
+  text-align: center;
+}

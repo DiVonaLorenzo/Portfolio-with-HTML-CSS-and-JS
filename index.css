@@ -1,0 +1,180 @@
+html{
+    background-image: url(background.jpg);
+    color: white;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+}
+li {
+    display: inline;
+    padding: 20px;
+  }
+a {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    text-decoration: solid;
+}
+a:hover{
+    text-decoration: underline;
+    color: azure;
+}
+ul{
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(54, 44, 44, 0.5);
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+}
+#profileimg{
+    border-radius: 40px;
+    width: 300px;
+    height:300px;
+    margin: 40px;
+    border: 2px solid white;
+}
+#gif{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+#contenitoregif{
+    width: 100%;
+    height: 200px;
+
+}
+#presentation{
+    font-size: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+#contenitoreimage{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.skills{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: blue;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 3px 3px #30b5dd;
+}
+#aboutme{
+    
+    height: 100%;
+    display: inline-block;
+}
+.immaginiskills{
+    width: 100px;
+    height: 100px;
+    margin-top: 20%;
+}
+#competenze{
+    
+    padding-bottom: 55px;
+}
+#example , #example2, #contenitoreproject {
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    margin: 50px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 75px;
+}
+#imgexample, #imgexample2, #imgproject{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+#projects{
+    
+    padding-bottom: 55px;
+    overflow: auto;
+
+}
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    width:80%;
+  }
+fieldset {
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid white;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 75px;
+  }
+button {
+    background-color: #fff;
+    border: 1px solid blue;
+    color: blue;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+  }
+button:hover {
+    background-color: blue;
+    border: 1px solid blue;
+    color: #fff;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+.scfrock{
+  width:100px;
+  height:100px;
+  background-image: url('sasso.png');
+  background-size: 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #30b5dd;
+}
+.scfrock:hover, .scfpaper:hover, .scfscissors:hover{
+    background-color: red;
+}
+.scfpaper{
+    width:100px;
+    height:100px;
+    background-image: url('carta.png');
+    background-size: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30b5dd;  
+}
+  .scfscissors{
+    width:100px;
+    height:100px;
+    background-image: url('forbice.png');
+    background-size: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30b5dd;
+}
